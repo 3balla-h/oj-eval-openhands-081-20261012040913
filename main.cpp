@@ -93,7 +93,7 @@ int main() {
             for (int i = 1; i <= n; i++) {
                 for (auto &e : graph[i]) {
                     e.cap = 1;  // Reset to original capacity
-n                }
+                }
             }
             total_flow += max_flow(a, b);
         }
